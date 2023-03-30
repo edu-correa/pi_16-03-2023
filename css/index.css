@@ -109,3 +109,11 @@ nav .container{
 #cards .container{
     justify-content: space-around;
 }
+
+#card h1{
+    color: #d62e71;
+}
+
+#card2 h1{
+    color: #d62e71;
+}
