@@ -4,45 +4,67 @@ body{
     font-family: calibri;
 }
 nav{
-    display: flex;
     top: 100%;
     padding: 0;
     width: 100%;
     height: 100px;
     background-color: rgb(0, 0, 0);
     color: white;
-    justify-content: space-around;
-    align-items: center;
+    border-bottom: 6px solid aqua;
+}
+nav h1{
+    font-size: 40px;
+    color: aqua;
+    margin-right: 320px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 a{
     color: #ffffff;
     text-decoration: none;
 }
 .container{
+    width: 80%;
+    margin: auto;
     display: flex;
     align-items: center;
     text-align: center;
 }
+nav .container{
+    justify-content: space-between;
+}
 #prop{
-    background-image: url('imgs/bg-jelly-fish-para_outras_pags.png');
+    background-image: url('../imgs/bg-jelly-fish-para_outras_pags.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px;
     margin-bottom: 50px;
 }
+#prop .container{
+    justify-content: space-evenly;
+}
 #prop h1{
-    text-align: center;
+    text-align: left;
     color: white;
     margin: auto;
-    font-size: 90px;
+    margin-top: 100px;
+    font-size: 60px;
     text-shadow: 30px;
+    height: 320px;
+    width: 400px;
+}
+#prop span{
+    color: rgb(62, 62, 243);
 }
 #card{
     width: 250px;
@@ -75,4 +97,13 @@ a{
     width: 250px;
     height: 150px;
     object-fit:contain;
+}
+#footerColor{
+    margin-top: 30px;
+    width: auto;
+    height: 20vh;
+    background-color: aqua;
+}
+#cards .container{
+    justify-content: space-around;
 }
