@@ -54,6 +54,7 @@ nav .container{
 }
 .prop .container{
     justify-content: space-evenly;
+    align-items: centers;
 }
 .prop h1{
     text-align: left;
