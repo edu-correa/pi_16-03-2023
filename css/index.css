@@ -44,7 +44,7 @@ a{
 nav .container{
     justify-content: space-between;
 }
-#prop{
+.prop{
     background-image: url('../imgs/bg-jelly-fish-para_outras_pags.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,10 +52,10 @@ nav .container{
     height: 500px;
     margin-bottom: 50px;
 }
-#prop .container{
+.prop .container{
     justify-content: space-evenly;
 }
-#prop h1{
+.prop h1{
     text-align: left;
     color: white;
     margin: auto;
@@ -65,10 +65,10 @@ nav .container{
     height: 320px;
     width: 400px;
 }
-#prop span{
+.prop span{
     color: rgb(62, 62, 243);
 }
-#card{
+.card{
     width: 250px;
     height: 300px;
     border: 1px solid black;
@@ -77,17 +77,17 @@ nav .container{
     color: black;
 }
 
-#card img{
+.card img{
     width: 250px;
     height: 150px;
     object-fit:contain;
 }
 
-#cards{
+.cards{
     display: flex;
     justify-content: space-around;
 }
-#card2{
+.card2{
     width: 250px;
     height: 300px;
     border: 1px solid black;
@@ -95,25 +95,30 @@ nav .container{
     background-color: rgb(250, 234, 204);
 }
 
-#card2 img{
+.card2 img{
     width: 250px;
     height: 150px;
     object-fit:contain;
 }
-#footerColor{
+.footerColor{
     margin-top: 30px;
     width: auto;
     height: 20vh;
     background-color: aqua;
 }
-#cards .container{
+.cards .container{
     justify-content: space-around;
 }
 
-#card h1{
+.card h1{
     color: #d62e71;
 }
 
-#card2 h1{
+.card2 h1{
     color: #d62e71;
+}
+
+.footerColor .container{
+    align-items: center;
+    justify-content: center;
 }
